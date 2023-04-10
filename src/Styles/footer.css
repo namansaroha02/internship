@@ -1,0 +1,98 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+footer{
+    background: #5cdb95;
+    height: auto;
+    width: 100%;
+    font-family: "Open sans";
+    padding-top: 40px;
+    color: #05386b;
+    /* position: absolute;
+    bottom: 0px; */
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0rem 0 1rem 0;
+}
+
+.socials li{
+    margin: 0 10px;
+}
+
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.socials a{
+    font-size: 2rem;
+}
+
+.fb:hover{
+    color: #3b5998;
+    transition: 0.7s ease;
+}
+
+.ig:hover{
+    color: #d629ae;
+    transition: 0.7s ease;
+}
+
+.twt:hover{
+    color: #00acee;
+    transition: 0.7s ease;
+}
+
+.ld:hover{
+    color: #0A66C2;
+    transition: 0.7s ease;
+}
+
+.yt:hover{
+    color: #FF0000;
+    transition: 0.7s ease;
+}
+
+.footer-bottom{
+    background: #379683;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-bottom p{
+    margin-bottom: 0rem;
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}

@@ -1,0 +1,36 @@
+.slideImage {
+    width: 100px;
+    height: auto;
+    padding-bottom: 60px;
+    /* margin-right: 100px;
+    margin-left: 100px; */
+    margin-left: 105px;
+}
+
+.swiperArea {
+    display: flex;
+    width: 70%;
+    margin: 40px auto 0px;
+    height: auto;
+}
+
+.mainArea {
+    margin: 20px 0;
+}
+
+.mainArea h1 {
+    text-align: center;
+}
+
+.image-swiper-button-prev {
+    margin: auto 0px;
+    cursor:pointer;
+}
+
+.image-swiper-button-next {
+    margin: auto 0px;
+    cursor:pointer;
+}
+
+
+
